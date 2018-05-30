@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmnls:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1" />
+	<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+</head>
+<body>
+<h1>Welcome to Thymeleaf</h1>
+
+<h2 th:utext="${message}"><strong>welcome message</strong></h2>
+
+<a th:href="@{/personList}">Person List</a>
+</body>
+</html>
